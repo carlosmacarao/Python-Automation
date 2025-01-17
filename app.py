@@ -1,6 +1,7 @@
 import pyautogui as pg
 
-pg.PAUSE = 0.5
+# Da uma pausa entre a execucao doss comandos
+pg.PAUSE = 0.9
 
 
 pg.press("win")
@@ -10,4 +11,6 @@ pg.write("chrome")
 pg.press("enter")
 
 
-pg.write("https://www.youtube.com")
+pg.write("https://www.youtube.com/")
+
+pg.press("enter")
