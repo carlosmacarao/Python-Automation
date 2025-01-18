@@ -18,11 +18,11 @@ pyautogui.write("chrome")
 pyautogui.press("enter")
 
 
-pyautogui.write("https://www.youtube.com/")
+pyautogui.write("https://sigauz.unizambeze.ac.mz/login.zul")
 
 pyautogui.press("enter")
 
-time.sleep(3)
+time.sleep(5)
 
 # Fazer Login
-pyautogui.click()
+# pyautogui.click()
