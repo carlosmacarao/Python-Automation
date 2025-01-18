@@ -1,16 +1,28 @@
-import pyautogui as pg
 
-# Da uma pausa entre a execucao doss comandos
-pg.PAUSE = 0.9
+import pyautogui 
+import time
 
-
-pg.press("win")
-
-pg.write("chrome")
-
-pg.press("enter")
+# pyautogui.click -> it's used to click
+# pyautogui.press -> to press
+# pyautogui.write -> to write something
+# pyautogui.hotkey("ctrl", "shift", "esc") -> hotkeys
 
 
-pg.write("https://www.youtube.com/")
+pyautogui.PAUSE = 0.5     # Da uma pausa entre a execucao doss comandos
 
-pg.press("enter")
+
+pyautogui.press("win")
+
+pyautogui.write("chrome")
+
+pyautogui.press("enter")
+
+
+pyautogui.write("https://www.youtube.com/")
+
+pyautogui.press("enter")
+
+time.sleep(3)
+
+# Fazer Login
+pyautogui.click()
