@@ -22,7 +22,20 @@ pyautogui.write("https://sigauz.unizambeze.ac.mz/login.zul")
 
 pyautogui.press("enter")
 
-time.sleep(5)
+time.sleep(7)
+
+pyautogui.press("tab")
+
+pyautogui.write("20204061")
+
+pyautogui.press("tab")
+
+pyautogui.write("#")
+
+pyautogui.press("tab")
+pyautogui.press("tab")
+
+pyautogui.press("enter")
 
 # Fazer Login
 # pyautogui.click()
