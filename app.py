@@ -43,7 +43,7 @@ pyautogui.press("enter")
 # Import products data base
 # pip install pandas openpyxl
 
-import pandas
+import pandas 
 
 tabela = pandas.read_csv("produtos.csv")
 
